@@ -50,13 +50,30 @@ def delete_student():
     cursor.close()
     conn.close()
 
+def update_student():
+    conn = connect_db()
+    cursor = conn.cursor()
+
+    student_id = int(input("Enter student ID to update: "))
+    new_marks = float(input("Enter new marks: "))
+
+    query = "UPDATE students SET marks = %s WHERE id = %s"
+    cursor.execute(query, (new_marks, student_id))
+    conn.commit()
+
+    print("Student updated successfully!")
+
+    cursor.close()
+    conn.close()
+
 
 def menu():
     print("\n--- Student Management System ---")
     print("1. Add Student")
     print("2. View Students")
     print("3. Delete Student")
-    print("4. Exit")
+    print("4. Update Student")
+    print("5. Exit")
 
 
 def main():
@@ -71,6 +88,8 @@ def main():
         elif choice == "3":
             delete_student()
         elif choice == "4":
+            update_student()
+        elif choice == "5":
             break
         else:
             print("Invalid choice")
@@ -78,3 +97,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
