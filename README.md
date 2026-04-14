@@ -5,8 +5,14 @@
 3. Update database credentials in db.py
 4. Run main.py
 5. Here's image proof of code running successfully
- <img width="524" height="882" alt="image" src="https://github.com/user-attachments/assets/8a163569-efc6-42b9-9fb4-01a3e59efd4b" />
- <img width="460" height="898" alt="image" src="https://github.com/user-attachments/assets/8c9f8d30-f78e-49ff-8948-5c73631af501" />
+ <img width="488" height="594" alt="image" src="https://github.com/user-attachments/assets/d0019dff-c93f-412f-973b-ea614b599b15" />
+ <img width="397" height="821" alt="image" src="https://github.com/user-attachments/assets/e782b308-4c41-4800-9888-e2339ca47639" />
+ <img width="371" height="566" alt="image" src="https://github.com/user-attachments/assets/877f2120-2e79-4108-93b2-f415f1474654" />
+ <img width="367" height="751" alt="image" src="https://github.com/user-attachments/assets/c66c25dc-42c6-49a2-ba17-46c5163b9a4d" />
+
+
+
+
 
 
 
